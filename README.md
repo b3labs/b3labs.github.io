@@ -1,4 +1,8 @@
-# B3Labs - Basic Building Blocks Labs
+- [Goal](#goal)
+- [About the name](#about-the-name)
+- [Issues](#issues)
+
+## Goal
 
 This website (repo) was designed to provide anyone with the basic building blocks to start learing programming. 
 
@@ -11,3 +15,4 @@ The name is also a fun reference to [w3schools](https://www.w3schools.com), a po
 ## Issues
 
 If you have any recommendations or problems, please create an issue [here](https://github.com/b3labs/b3labs.github.io/issues)
+
