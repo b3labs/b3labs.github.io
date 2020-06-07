@@ -19,23 +19,22 @@ If you don't have any programming background, it is RECOMMENDED to go through an
 
 To complete these tutorials, just follow the steps in the tutorial.
 
-1. bash: [getting started with Bash](./tutorial/bash-tutorial.md)
-2. git: [getting started with Git](./tutorial/git-tutorial.md)
-3. git-notes: [create your own repo to store your notes, and become more familiar with git](./tutorial/git-notes-tutorial.md)
-4. hello world: [getting started with programming](./tutorial/hello-world.md)
-5. selenium: [automate any web browser](./tutorial/selenium-tutorial.md)
+1. [Bash - getting started](./tutorial/bash-tutorial.md)
+2. [Git - getting started](./tutorial/git-tutorial.md)
+3. [Git-Notes - Create your own repo to store your notes, and become more familiar with git](./tutorial/git-notes-tutorial.md)
+4. [Hello World - Getting started with programming](./tutorial/hello-world.md)
+5. [Selenium - automate any web browser](./tutorial/selenium-tutorial.md)
 
 ## 3. Questions - You can submit them back to test your understanding
 
-> IMPORTANT NOTE: DO NOT WORK ON MASTER, I.E. NEVER COMMIT ONTO MASTER, RATHER CREATE YOUR OWN BRANCH AND WORK ON IT
-> To answer these questions, create a branch off from master with the same name as the excercise marked in **bold**. [This will show you how](./cheatsheets/git.md#Create-a-branch)
-
-[After you create a new branch](./cheatsheets/git.md#Create-a-branch), you can edit the quesion's `.md` file with your answers, and commit and push it when you are done.
+> IMPORTANT NOTE: DO NOT WORK ON MASTER, I.E. NEVER COMMIT ONTO MASTER, RATHER CREATE YOUR OWN BRANCH AND WORK ON IT  
+> To answer these questions, create a branch off from master with the same name as the excercise marked in **bold**. [This will show you how](./cheatsheets/git.md#Create-a-branch)  
+> [After you create a new branch](./cheatsheets/git.md#Create-a-branch), you can edit the quesion's `.md` file with your answers, and commit and push it when you are done.
 
 1. GIT (questions): create a branch called **understand-git-commands**
    - Have a look at the [git-cheatsheet](./cheatsheets/git.md)
    - _Complete the questions_ by modifying and commiting the changes in [git-questions](./questions/understand-git-commands-questions.md)
-1. SBT (questions): create a branch called **understand-sbt-project-excercise**
+2. SBT (questions): create a branch called **understand-sbt-project-excercise**
    - Have a look at the [sbt-cheatsheet](./cheatsheets/sbt.md)
    - _Complete the questions_ by modifying and commiting the changes in [sbt-questions](./questions/understand-sbt-project-excercise.md)
 
