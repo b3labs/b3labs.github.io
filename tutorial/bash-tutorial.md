@@ -191,44 +191,101 @@ There are many different shells that can be loaded into a terminal/console. Here
     > Check in your Finder to see if the file was moved
     > In your terminal, use `ls` to see if the file was moved
 
+## If you want to do this tutorial again, just run the following command
+
+1. Remove the `bash-tutorial` folder we created at the start of this tutorial
+
+   ```bash
+   rm -rf ~/tmp/bash-tutorial
+   ```
+
+## A note on Specifying paths
+
+A **path**, is a place on your hard drive. Your hard drive can store files and directories (folders). Basically, that is all a hard drive can do.
+
+![Think about it](https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)
+
+[According to linux.com:](https://www.linux.com/training-tutorials/absolute-path-vs-relative-path-linuxunix/)
+
+> A path is a unique location to a file or a folder in a file system of an OS. A path to a file is a combination of / and alpha-numeric characters.
+
+You can specify a path, with one of two ways:
+
+1. Specific (also called _full_ OR _absolute_) path:
+
+   ```bash
+   / # the root of your hard drive
+   /Users/<USERNAME>/ # your user directory
+   /opt/some/folder # a folder called `opt` with a folder called `some`, and another folder in it called `folder`
+   ~ # a folder called your home directory, which is your user account's home. It is basically a substitute for `/Users/<Your Username>/`
+   ~/tmp/folder # a folder in your home directory called `tmp`, with a folder called `folder` in it
+   /var/ftp/pub
+   /etc/samba.smb.conf
+   /boot/grub/grub.conf
+   ```
+
+   > As you can see, all of these paths start with `/`, even the `~` (because it is a substitute for `/Users/<Your Username>/`)
+   > A specific (full/absolute) path tells the interpreter exactly where the file or folder is that you want to access.
+
+2. Relational path:
+
+   ```bash
+   ./tmp/ # a folder from my current PWD, called `tmp`
+   ./file # a file in my current directory called `file`
+   . # this directory
+   .. # the parent directory of this directory
+   ```
+
+   > [Relative path can be defined as a path related to the present working directory(pwd).](https://www.linux.com/training-tutorials/absolute-path-vs-relative-path-linuxunix/)
+   > A relational path, is a lazy or shorthand method that we can use because we don't want to always type the full path. We can specify paths, in relation to our current working directory (`pwd`).
+
 ## Extra commands
 
-1. Reset the terminal
+1. You can learn about bash by using your favorite search engine. For example just type `bash ls examples` OR `bash tutorial` into:
+
+   1. [Google](https://www.google.com/)
+   2. [DuckDuckGo](https://duckduckgo.com/)
+   3. [Startpage](https://startpage.com/)
+
+2. Reset the terminal. This is useful if your terminal are not showing you what you are typing.
 
    ```bash
    reset
    ```
 
-1. Quit a terminal program
+3. Quit a terminal program
 
    ```bash
    ^C - Control C - hard kill
    ^D - Control D - soft kill
    ```
 
-1. List running applications on this computer
+4. List running applications on this computer
 
    ```bash
-   ps
+   ps -ef
    ```
 
-1. Find a file
+5. Find a file
 
    ```bash
    find - find a file
    locate - locate a file
    ```
 
-1. Extra cd commands
+6. Extra cd commands
 
    ```bash
     cd </some/directory/path>
     cd ~ #change to home directory
+    cd .. #go one directory back
+    cd ../.. #go two directories back
+    cd ../../.. #go three directories back
     cd / #change to the root directory, the top most directory of your hard drive
     cd /opt/ #change to /opt
    ```
 
-1. Zip files
+7. Zip files
 
    ```bash
    zip zippety.zip ~/tmp/bash-tutorial * # zip the folder, with all its files
@@ -236,7 +293,7 @@ There are many different shells that can be loaded into a terminal/console. Here
    unzip zippety.zip
    ```
 
-1. Man pages and extra help when using commands
+8. Man pages and extra help when using commands
 
    ```bash
    man <command> # to learn more about any command

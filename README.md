@@ -20,6 +20,9 @@ To complete these tutorials, just follow the steps in the tutorial.
 
 1. bash: [Getting started with Bash](./tutorial/bash-tutorial.md)
 2. git: [Getting started with Git](./tutorial/git-tutorial.md)
+3. git-notes: [Create your own repo to store your notes, and become more familiar with git](./tutorial/git-notes-tutorial.md)
+4. hello world: [Getting started with programming](./tutorial/hello-world.md)
+5. selenium: [automate any web browser](./tutorial/selenium-tutorial.md)
 
 ## 3. Questions - You can submit them back to test your understanding
 
