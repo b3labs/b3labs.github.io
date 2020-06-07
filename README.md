@@ -40,10 +40,9 @@ To complete these tutorials, just follow the steps in the tutorial.
 
 ## 4. Tasks - Getting your hands dirty
 
-> IMPORTANT NOTE: DO NOT WORK ON MASTER, I.E. NEVER COMMIT ONTO MASTER, RATHER CREATE YOUR OWN BRANCH AND WORK ON IT
-> To answer these questions, create a branch off from master with the same name as the excercise marked in **bold**. [This will show you how](./cheatsheets/git.md#Create-a-branch)
-
-[After you create a new branch](./cheatsheets/git.md#Create-a-branch), you can complete the task by commiting your changes to the source files.
+> IMPORTANT NOTE: DO NOT WORK ON MASTER, I.E. NEVER COMMIT ONTO MASTER, RATHER CREATE YOUR OWN BRANCH AND WORK ON IT  
+> To answer these questions, create a branch off from master with the same name as the excercise marked in **bold**. [This will show you how](./cheatsheets/git.md#Create-a-branch)  
+> [After you create a new branch](./cheatsheets/git.md#Create-a-branch), you can edit the quesion's `.md` file with your answers, and commit and push it when you are done.
 
 1. Scalatest (task): **add-scala-tests-for-functions-excercise**
    - Create more tests for the cubed function
