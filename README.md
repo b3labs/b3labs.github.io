@@ -2,6 +2,7 @@
 - [2. Tutorials - A guided exercise](#2-tutorials---a-guided-exercise)
 - [3. Questions - You can submit them back to test your understanding](#3-questions---you-can-submit-them-back-to-test-your-understanding)
 - [4. Tasks - Getting your hands dirty](#4-tasks---getting-your-hands-dirty)
+- [Cheatsheets/Quick Reference sheets](#cheatsheetsquick-reference-sheets)
 - [5. Other Things](#5-other-things)
 - [6. About this website](#6-about-this-website)
 
@@ -49,6 +50,11 @@ To complete these tutorials, just follow the steps in the tutorial.
    - Create more tests for the cubed function
    - Add tests for the multiply and add functions
    - _Complete this exercise_ by modifying and commiting the file [ToTestOrNotToTestSpec.scala](../src/test/scala/ToTestOrNotToTestSpec.scala)
+
+## Cheatsheets/Quick Reference sheets
+
+- [git](./cheatsheets/git.md)
+- [sbt](cheatsheets/sbt.md)
 
 ## 5. Other Things
 
