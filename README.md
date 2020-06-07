@@ -4,9 +4,9 @@
 - [2. Tutorials - A guided exercise](#2-tutorials---a-guided-exercise)
 - [3. Questions - You can submit them back to test your understanding](#3-questions---you-can-submit-them-back-to-test-your-understanding)
 - [4. Tasks - Getting your hands dirty](#4-tasks---getting-your-hands-dirty)
-- [Cheatsheets/Quick Reference sheets](#cheatsheetsquick-reference-sheets)
-- [5. Other Things](#5-other-things)
-- [6. About this website](#6-about-this-website)
+- [5. Cheatsheets/Quick Reference sheets](#5-cheatsheetsquick-reference-sheets)
+- [6. Other Things](#6-other-things)
+- [7. About this website](#7-about-this-website)
 
 ## 1. First steps - recommended for people who are new to programming
 
@@ -51,17 +51,17 @@ To complete these tutorials, just follow the steps in the tutorial.
    - Add tests for the multiply and add functions
    - _Complete this exercise_ by modifying and commiting the file [ToTestOrNotToTestSpec.scala](../src/test/scala/ToTestOrNotToTestSpec.scala)
 
-## Cheatsheets/Quick Reference sheets
+## 5. Cheatsheets/Quick Reference sheets
 
-- [git](./cheatsheets/git.md)
-- [sbt](./cheatsheets/sbt.md)
+1. [git](./cheatsheets/git.md)
+1. [sbt](./cheatsheets/sbt.md)
 
-## 5. Other Things
+## 6. Other Things
 
 1. [Useful](./other/USEFUL.md)
 2. [Extra](./other/EXTRA.md)
 
-## 6. About this website
+## 7. About this website
 
 - Goal
   
