@@ -1,3 +1,5 @@
+<!-- omit in toc -->
+## Table of contents
 - [1. First steps - recommended for people who are new to programming](#1-first-steps---recommended-for-people-who-are-new-to-programming)
 - [2. Tutorials - A guided exercise](#2-tutorials---a-guided-exercise)
 - [3. Questions - You can submit them back to test your understanding](#3-questions---you-can-submit-them-back-to-test-your-understanding)
@@ -54,12 +56,12 @@ To complete these tutorials, just follow the steps in the tutorial.
 ## Cheatsheets/Quick Reference sheets
 
 - [git](./cheatsheets/git.md)
-- [sbt](cheatsheets/sbt.md)
+- [sbt](./cheatsheets/sbt.md)
 
 ## 5. Other Things
 
-1. [Useful](./USEFUL.md)
-2. [Extra](./EXTRA.md)
+1. [Useful](./other/USEFUL.md)
+2. [Extra](./other/EXTRA.md)
 
 ## 6. About this website
 
